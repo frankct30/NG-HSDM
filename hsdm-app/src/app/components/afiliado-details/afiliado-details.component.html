@@ -1,0 +1,25 @@
+<div class="example-container">
+    <mat-form-field>
+      <input matInput placeholder="Nombre" [(ngModel)]="afiliado.nombre">      
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Apellido" [(ngModel)]="afiliado.apellido">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Celular" [(ngModel)]="afiliado.celular">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Email" [(ngModel)]="afiliado.email">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Direccion" [(ngModel)]="afiliado.direccion">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Fecha Nacimiento" [(ngModel)]="afiliado.fechaNacimiento">
+    </mat-form-field> 
+    <mat-form-field>
+        <input matInput placeholder="Fecha Afiliacion" [(ngModel)]="afiliado.fechaAfiliacion">
+    </mat-form-field>     
+</div>
+<button mat-button routerLink='/afiliados' >Cancelar</button>
+<button mat-button>Aceptar</button>
